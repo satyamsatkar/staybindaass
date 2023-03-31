@@ -406,6 +406,36 @@ body {
     font-size: 12px;
     margin: 0px;
   }
+  .owl-nav .owl-prev {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+  }
+  .owl-nav .owl-prev span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    background: rgba(1, 1, 1, 0.5);
+  }
+  .owl-nav .owl-next {
+    position: absolute;
+    top: 40%;
+    right: 3%;
+  }
+  .owl-nav .owl-next span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    background: rgba(1, 1, 1, 0.5);
+  }
   .fixed-bottom {
     background: #fff !important;
     box-shadow: 1px 1px 20px lightgray;

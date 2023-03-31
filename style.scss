@@ -118,6 +118,7 @@ body {
   }
   .owl-nav {
    display: none;
+   
   }
 }
 
@@ -423,6 +424,45 @@ width: 100%;
     }
   }
 
+.owl-nav{
+  .owl-prev{
+    position: absolute;
+    top:40%;
+    left:3%;
+
+    span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 50px;
+      color:white;
+      width: 50px;
+      height: 50px;
+      background: rgba(0.5,0.5,0.5,0.5);
+    }
+     
+ 
+   }
+   .owl-next{
+    position: absolute;
+    top:40%;
+    right:3%;
+
+    span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 50px;
+      color:white;
+      width: 50px;
+      height: 50px;
+      background: rgba(0.5,0.5,0.5,0.5);
+    }
+   }
+}
+
+     
+ 
   .fixed-bottom{
     background: #fff !important;
     box-shadow: 1px 1px 20px lightgray;
