@@ -314,6 +314,17 @@ width: 100%;
   }
 }
 
+.head-line{
+  background-color: #ab2440;
+   .heading-text{
+     font-weight: 600;
+     color: #fff;
+     line-height: 1.5;
+     font-size: 30px;
+   }
+ } 
+
+
 @media only screen and (max-width: 600px) {
   .navbar-nav {
     padding: 0px;
