@@ -398,7 +398,11 @@ width: 100%;
   .fixed-bottom{
     background: #fff !important;
     box-shadow: 1px 1px 20px lightgray;
-   
+    
+   a{
+    color: grey;
+    text-decoration: none;
+   }
     .col-3{
       padding-left: 0px !important;
       padding-right: 0px !important;

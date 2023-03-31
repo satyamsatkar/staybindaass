@@ -384,6 +384,10 @@ body {
     background: #fff !important;
     box-shadow: 1px 1px 20px lightgray;
   }
+  .fixed-bottom a {
+    color: grey;
+    text-decoration: none;
+  }
   .fixed-bottom .col-3 {
     padding-left: 0px !important;
     padding-right: 0px !important;
