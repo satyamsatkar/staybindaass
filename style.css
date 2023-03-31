@@ -111,9 +111,7 @@ body {
   position: relative;
 }
 .carousle-dest .owl-nav {
-  position: absolute !important;
-  top: 50px;
-  right: 26px;
+  display: none;
 }
 
 .head-dest {
