@@ -291,6 +291,22 @@ body {
   width: 100%;
 }
 
+.fixed-bottom {
+  background: #fff !important;
+  box-shadow: 1px 1px 20px lightgray;
+}
+.fixed-bottom a {
+  color: grey;
+  text-decoration: none;
+}
+.fixed-bottom .col-3 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.fixed-bottom .col-3 p {
+  margin: 0px;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar-nav {
     padding: 0px;
