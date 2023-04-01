@@ -323,6 +323,58 @@ body {
   background-color: lightgray !important;
 }
 
+.property-list-form {
+  max-width: 500px;
+  border: 1px solid lightgray;
+  background: #fff;
+  margin: 100px 0px;
+  border-radius: 5px;
+}
+.property-list-form h2 {
+  font-weight: 500;
+}
+.property-list-form p {
+  line-height: 2;
+}
+.property-list-form button {
+  background-color: #ab2440 !important;
+  border: none;
+  padding: 20px !important;
+}
+
+.property-list-main {
+  background: #E5F0FD;
+}
+
+.success-page .message-part {
+  line-height: 2;
+}
+.success-page .message-part .mark-logo {
+  background-color: none !important;
+}
+.success-page .message-part .mark-logo i {
+  color: #ab2440;
+  font-size: 70px;
+}
+.success-page .message-part h2 {
+  font-weight: 700;
+}
+.success-page .message-part p {
+  color: #697488;
+}
+.success-page .order-detail {
+  border: 1px dashed #ab2440;
+  border-radius: 5px;
+}
+.success-page .order-info {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+.success-page .font-color-maroon {
+  color: #ab2440;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar-nav {
     padding: 0px;

@@ -332,6 +332,66 @@ width: 100%;
    } 
 }
 
+// list-your-property  
+
+.property-list-form{
+max-width: 500px;
+border: 1px solid lightgray;
+background: #fff;
+margin: 100px 0px;
+border-radius: 5px;
+
+h2{
+  font-weight: 500;
+}
+p{
+  line-height: 2;
+}
+button{
+  background-color: #ab2440 !important;
+  border: none;
+  padding: 20px !important;
+}
+}
+.property-list-main{
+  background: #E5F0FD;
+}
+
+// Successfully page 
+.success-page{
+  .message-part{
+    line-height: 2;
+    .mark-logo{
+      background-color: none !important;
+      i{
+        color: #ab2440;
+        font-size: 70px;
+        
+      }
+    }
+    h2{
+      font-weight: 700;
+    }
+    p{
+      color: #697488;
+    }
+  }
+  .order-detail{
+    border: 1px dashed #ab2440;
+    border-radius: 5px;
+  }
+  .order-info{
+    border:1px solid lightgray;
+    border-radius: 5px;
+  }
+  .font-color-maroon{
+    color: #ab2440;
+    font-weight: 600;
+  }
+
+}
+
+
 @media only screen and (max-width: 600px) {
   .navbar-nav {
     padding: 0px;
