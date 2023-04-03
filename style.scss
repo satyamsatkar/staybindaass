@@ -88,12 +88,11 @@ body {
   button {
     color: black;
   }
-.nav-pills{
-  img {
-    width: 35px !important;
+  .nav-pills {
+    img {
+      width: 35px !important;
+    }
   }
-}
-
 }
 .carousle-dest {
   .item {
@@ -117,8 +116,7 @@ body {
     position: relative;
   }
   .owl-nav {
-   display: none;
-   
+    display: none;
   }
 }
 
@@ -286,111 +284,143 @@ body {
   }
 }
 
-// Online Payment 
-.online-pay{
-.padd-20{
-  padding: 40px 0px;
-  h2{
-    font-weight: 600;
+// Online Payment
+.online-pay {
+  .padd-20 {
+    padding: 40px 0px;
+    h2 {
+      font-weight: 600;
+    }
+  }
+
+  .qr-img img {
+    width: 100%;
   }
 }
 
-.qr-img img{
-width: 100%;
-  }
-}
-
-.fixed-bottom{
+.fixed-bottom {
   background: #fff !important;
   box-shadow: 1px 1px 20px lightgray;
-  
- a{
-  color: grey;
-  text-decoration: none;
- }
-  .col-3{
+
+  a {
+    color: grey;
+    text-decoration: none;
+  }
+  .col-3 {
     padding-left: 0px !important;
     padding-right: 0px !important;
-    p{
+    p {
       margin: 0px;
     }
   }
 }
 
-.head-line{
+.head-line {
   background-color: #ab2440;
-   .heading-text{
-     font-weight: 600;
-     color: #fff;
-     line-height: 1.5;
-     font-size: 30px;
-   }
- } 
-.nav-pills{
-  .active{
-    background-color: lightgray !important;
-   } 
+  .heading-text {
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 30px;
+  }
+}
+.nav-pills {
+  .active {
+    background-color:white !important;
+    color: #000 !important;
+    border-radius: 0px !important;
+    border-bottom:3px solid #ab2440 !important;
+     
+ 
+  }
 }
 
-// list-your-property  
+// list-your-property
 
-.property-list-form{
-max-width: 500px;
-border: 1px solid lightgray;
-background: #fff;
-margin: 100px 0px;
-border-radius: 5px;
+.property-list-form {
+  max-width: 500px;
+  border: 1px solid lightgray;
+  background: #fff;
+  margin: 100px 0px;
+  border-radius: 5px;
 
-h2{
-  font-weight: 500;
-}
-p{
-  line-height: 2;
-}
-button{
-  background-color: #ab2440 !important;
-  border: none;
-  padding: 20px !important;
-}
-}
-.property-list-main{
-  background: #E5F0FD;
-}
-
-// Successfully page 
-.success-page{
-  .message-part{
+  h2 {
+    font-weight: 500;
+  }
+  p {
     line-height: 2;
-    .mark-logo{
+  }
+  button {
+    background-color: #ab2440 !important;
+    border: none;
+    padding: 20px !important;
+  }
+}
+.property-list-main {
+  background: #e5f0fd;
+}
+
+// Successfully page
+.success-page {
+  .message-part {
+    line-height: 2;
+    .mark-logo {
       background-color: none !important;
-      i{
+      i {
         color: #ab2440;
         font-size: 70px;
-        
       }
     }
-    h2{
+    h2 {
       font-weight: 700;
     }
-    p{
+    p {
       color: #697488;
     }
   }
-  .order-detail{
+  .order-detail {
     border: 1px dashed #ab2440;
     border-radius: 5px;
   }
-  .order-info{
-    border:1px solid lightgray;
+  .order-info {
+    border: 1px solid lightgray;
     border-radius: 5px;
   }
-  .font-color-maroon{
+  .font-color-maroon {
     color: #ab2440;
     font-weight: 600;
   }
-
 }
 
+// villa-sb-1000
+
+.info-part {
+  .back {
+    background: #f5f8ff;
+    border-radius: 5px;
+  }
+
+  .overview {
+    line-height: 2;
+  }
+  .readmore {
+    text-decoration: underline !important;
+    cursor: pointer !important;
+  }
+  .meal-plan{
+    border: 1px dashed red;
+    background: #F6F6F6;
+  }
+  .tab-content{
+    .faq-btn{
+
+      border-radius: 50%;
+    }
+    .ans-detail{
+      display: none;
+    }
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .navbar-nav {
@@ -415,7 +445,7 @@ button{
     position: relative !important;
   }
   .banner-text {
-    display: none;  
+    display: none;
   }
   .search-bar {
     display: block !important;
@@ -433,7 +463,7 @@ button{
     .book-btn {
       width: 100% !important;
     }
-    label{
+    label {
       font-weight: 500;
     }
     input {
@@ -454,93 +484,89 @@ button{
   }
   .list-property {
     text-align: center;
-    padding: 25px 0px ;
+    padding: 25px 0px;
     .text1 {
       padding: 30px;
       line-height: 3;
     }
   }
-  .contact-link{
+  .contact-link {
     padding: 70px 0px;
   }
-  .service-secion{
+  .service-secion {
     padding: 0px;
   }
- .tab-section{
- .nav{
-  flex-wrap: nowrap;
-  overflow-x: scroll;
- }
- }
+  .tab-section {
+    .nav {
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+    }
+  }
   .carousle-dest {
     margin-top: 70%;
   }
 
   .instant-call {
     padding: 17px;
-    input{
+    input {
       padding: 2px;
     }
-    button{
+    button {
       padding: 2px;
     }
-    h2{
+    h2 {
       font-size: 12px;
       margin: 0px;
     }
   }
 
-.owl-nav{
-  .owl-prev{
-    position: absolute;
-    top:40%;
-    left:3%;
+  .owl-nav {
+    .owl-prev {
+      position: absolute;
+      top: 40%;
+      left: 3%;
 
-    span{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 50px;
-      color:white;
-      width: 50px;
-      height: 50px;
-      background: rgba(0.5,0.5,0.5,0.5);
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: white;
+        width: 50px;
+        height: 50px;
+        background: rgba(0.5, 0.5, 0.5, 0.5);
+      }
     }
-     
- 
-   }
-   .owl-next{
-    position: absolute;
-    top:40%;
-    right:3%;
+    .owl-next {
+      position: absolute;
+      top: 40%;
+      right: 3%;
 
-    span{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 50px;
-      color:white;
-      width: 50px;
-      height: 50px;
-      background: rgba(0.5,0.5,0.5,0.5);
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: white;
+        width: 50px;
+        height: 50px;
+        background: rgba(0.5, 0.5, 0.5, 0.5);
+      }
     }
-   }
-}
+  }
 
-     
- 
-  .fixed-bottom{
+  .fixed-bottom {
     background: #fff !important;
     box-shadow: 1px 1px 20px lightgray;
-    
-   a{
-    color: grey;
-    text-decoration: none;
-   }
-    .col-3{
+
+    a {
+      color: grey;
+      text-decoration: none;
+    }
+    .col-3 {
       padding-left: 0px !important;
       padding-right: 0px !important;
-      p{
+      p {
         margin: 0px;
       }
     }

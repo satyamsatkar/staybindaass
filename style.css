@@ -320,7 +320,10 @@ body {
 }
 
 .nav-pills .active {
-  background-color: lightgray !important;
+  background-color: white !important;
+  color: #000 !important;
+  border-radius: 0px !important;
+  border-bottom: 3px solid #ab2440 !important;
 }
 
 .property-list-form {
@@ -343,7 +346,7 @@ body {
 }
 
 .property-list-main {
-  background: #E5F0FD;
+  background: #e5f0fd;
 }
 
 .success-page .message-part {
@@ -373,6 +376,28 @@ body {
 .success-page .font-color-maroon {
   color: #ab2440;
   font-weight: 600;
+}
+
+.info-part .back {
+  background: #f5f8ff;
+  border-radius: 5px;
+}
+.info-part .overview {
+  line-height: 2;
+}
+.info-part .readmore {
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
+.info-part .meal-plan {
+  border: 1px dashed red;
+  background: #F6F6F6;
+}
+.info-part .tab-content .faq-btn {
+  border-radius: 50%;
+}
+.info-part .tab-content .ans-detail {
+  display: none;
 }
 
 @media only screen and (max-width: 600px) {
