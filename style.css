@@ -400,6 +400,34 @@ body {
   display: none;
 }
 
+.review-section .review-box h2 {
+  background: #ab2440;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 22px;
+}
+.review-section .review-text p {
+  margin: 0px;
+}
+
+.review-textpart .review-name {
+  background: #051036;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+.review-textpart .review-nameright p {
+  margin: 0px;
+}
+
+.progress {
+  height: 6px !important;
+}
+.progress .progress-bar {
+  background-color: #ab2440 !important;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar-nav {
     padding: 0px;

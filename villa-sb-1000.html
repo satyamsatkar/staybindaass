@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
     <!-- bootstrap  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <!-- Basic stylesheet -->
@@ -48,28 +49,28 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 info-part">
-          <div class="d-flex justify-content-between p-2">
+          <div class="d-flex justify-content-between px-1 py-5">
             <div>
               <p>⭐⭐⭐⭐⭐<span>3,014 reviews</span></p>
             </div>
             <div>
-              <button class="btn btn-sm btn-danger"><i class="bi bi-share-fill"></i> Share</button>
+              <button class="btn btn-sm border-1 border-danger"><i class="bi bi-share-fill"></i> Share</button>
               <button class="btn btn-sm btn-danger"><i class="bi bi-suit-heart-fill"></i> Save</button>
             </div>
           </div>
 
           <div class="row amenities">
             <div class="col-lg-3 col-6 text-center">
-              <p class="back py-2">2 Bedrooms</p>
+              <p class="back py-2"><i class="fa-solid fa-bed"></i>2 Bedrooms</p>
             </div>
             <div class="col-lg-3 col-6 text-center">
-              <p class="back py-2">1 Bathroom</p>
+              <p class="back py-2"><i class="fa-solid fa-bath"></i>1 Bathroom</p>
             </div>
             <div class="col-lg-3 col-6 text-center">
-              <p class="back py-2">10 Guests</p>
+              <p class="back py-2"><i class="fa-solid fa-users"></i>10 Guests</p>
             </div>
             <div class="col-lg-3 col-6 text-center">
-              <p class="back py-2">Minimum 3 Nights</p>
+              <p class="back py-2"><i class="fa-solid fa-sun"></i>Minimum 3 Nights</p>
             </div>
           </div>
 
@@ -77,7 +78,7 @@
           <ul class="overview">
             <li>At the end of an invigorating journey through lush fields, cloudy weather and acres of beautiful scenery 6 hours from Mumbai and 2 hours from Pune stands SaffronStays Happy Fields, a pet-friendly, 3-Bedroom pool farmhouse flooded with natural light all the year through.</li>
             <li>A culmination of a mother’s dream and built by animal lovers, the farmstay with exposed brickwork walls and wooden interiors complements the surroundings. There is...</li>
-            <div id="overview-content">
+            <div id="overview-content" style="display: none;">
               <li>A culmination of a mother’s dream and built by animal lovers, the farmstay with exposed brickwork walls and wooden interiors complements the surroundings. There is...</li>
               <li>A culmination of a mother’s dream and built by animal lovers, the farmstay with exposed brickwork walls and wooden interiors complements the surroundings. There is...</li>
             </div>
@@ -198,20 +199,185 @@
                 </div>
                 <p id="ans" class="ans-detail">You cannot book one room. You need to book the entire home.</p>
               </div>
+
               <div class="card p-3">
                 <div class="d-flex align-items-center">
                   <button class="btn btn-danger faq-btn" id="faqtoggle1">+</button>
                   <p class="m-0" id="question"><b>Can I book only one or two rooms, or do I need to book the entire Home?</b></p>
                 </div>
-                <p id="ans1" class="ans-detail ">You cannot book one room. You need to book the entire home.</p>
+                <p id="ans1" class="ans-detail">You cannot book one room. You need to book the entire home.</p>
               </div>
-
+              <div class="card p-3">
+                <div class="d-flex align-items-center">
+                  <button class="btn btn-danger faq-btn" id="faqtoggle1">+</button>
+                  <p class="m-0" id="question"><b>Can I book only one or two rooms, or do I need to book the entire Home?</b></p>
+                </div>
+                <p id="ans1" class="ans-detail">You cannot book one room. You need to book the entire home.</p>
+              </div>
+              <ul>
+                <li>This villa is pet-friendly but pets are not allowed beyond the verandah.</li>
+                <li>Considering the unique location of the villa, Internet connectivity can get affected due to falling of trees, heavy rains or other causes</li>
+              </ul>
             </div>
-
-            <div class="col-lg-4"></div>
           </div>
         </div>
+
+        <div class="col-lg-4">satyam</div>
       </div>
+
+      <hr />
+
+      <div class="row">
+        <div class="review-section col-lg-4">
+          <div class="review-box d-flex">
+            <h2>4.8</h2>
+            <div class="review-text px-3">
+              <p><b>Review</b></p>
+              <p>114 reviews</p>
+            </div>
+          </div>
+          <div class="review-bar">
+            <p>Cleanliness</p>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar w-75 h-22"></div>
+            </div>
+            <p>Communication</p>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar w-75"></div>
+            </div>
+            <p>Check-in</p>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar w-75"></div>
+            </div>
+            <p>Accuracy</p>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar w-75"></div>
+            </div>
+            <p>Accuracy</p>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar w-75"></div>
+            </div>
+            <p>Value</p>
+            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar w-75"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="review-textpart py-3">
+            <div class="d-flex align-items-center">
+              <img src="img/2.png" alt="" />
+              <div class="review-nameright px-3">
+                <p><b>Tonko</b></p>
+                <p>March 2022</p>
+              </div>
+            </div>
+            <p>Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores.</p>
+          </div>
+
+          <div class="review-textpart py-3">
+            <div class="d-flex img-part">
+              <img src="img/2.png" alt="" />
+              <div class="review-nameright px-3">
+                <p><b>Tonko</b></p>
+                <p>March 2022</p>
+              </div>
+            </div>
+            <p>Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores.</p>
+          </div>
+          <div class="review-textpart py-3">
+            <div class="d-flex review-textpart">
+              <img src="img/2.png" alt="" />
+              <div class="review-nameright px-3">
+                <p><b>Tonko</b></p>
+                <p>March 2022</p>
+              </div>
+            </div>
+            <p>Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores.</p>
+          </div>
+          <div class="review-textpart py-3">
+            <div class="d-flex review-textpart">
+              <img src="img/2.png" alt="" />
+              <div class="review-nameright px-3">
+                <p><b>Tonko</b></p>
+                <p>March 2022</p>
+              </div>
+            </div>
+            <p>Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores.</p>
+          </div>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-bg-light border-1 border-danger my-3" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Show all 116 reviews</button>
+ 
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="review-textpart py-3">
+                    <div class="d-flex align-items-center">
+                      <img src="img/2.png" alt="" />
+                      <div class="review-nameright px-3">
+                        <p><b>Tonko</b></p>
+                        <p>March 2022</p>
+                      </div>
+                    </div>
+                    <p>Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores.</p>
+                  </div>
+                  <div class="review-textpart py-3">
+                    <div class="d-flex align-items-center">
+                      <img src="img/2.png" alt="" />
+                      <div class="review-nameright px-3">
+                        <p><b>Tonko</b></p>
+                        <p>March 2022</p>
+                      </div>
+                    </div>
+                    <p>Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores.</p>
+                  </div>
+                  <div class="review-textpart py-3">
+                    <div class="d-flex align-items-center">
+                      <img src="img/2.png" alt="" />
+                      <div class="review-nameright px-3">
+                        <p><b>Tonko</b></p>
+                        <p>March 2022</p>
+                      </div>
+                    </div>
+                    <p>Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores.</p>
+                  </div>
+                  <div class="review-textpart py-3">
+                    <div class="d-flex align-items-center">
+                      <img src="img/2.png" alt="" />
+                      <div class="review-nameright px-3">
+                        <p><b>Tonko</b></p>
+                        <p>March 2022</p>
+                      </div>
+                    </div>
+                    <p>Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores.</p>
+                  </div>
+                  <div class="review-textpart py-3">
+                    <div class="d-flex align-items-center">
+                      <img src="img/2.png" alt="" />
+                      <div class="review-nameright px-3">
+                        <p><b>Tonko</b></p>
+                        <p>March 2022</p>
+                      </div>
+                    </div>
+                    <p>Nice two level apartment in great London location. Located in quiet small street, but just 50 meters from main street and bus stop. Tube station is short walk, just like two grocery stores.</p>
+                  </div>
+                </div>
+             
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
     </div>
 
     <script>
