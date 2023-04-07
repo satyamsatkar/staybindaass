@@ -119,7 +119,7 @@ body {
 }
 
 .today-deal {
-  padding: 50px 10px;
+  overflow: hidden;
 }
 .today-deal .item {
   margin: 10px;
@@ -128,7 +128,7 @@ body {
   display: none !important;
 }
 .today-deal .info-part {
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
   line-height: 1;
 }
 .today-deal .dest-text {
@@ -136,6 +136,11 @@ body {
 }
 .today-deal .extra-text {
   font-size: 12px;
+}
+
+.info-part {
+  padding: 20px 20px 0px 20px;
+  line-height: 1;
 }
 
 .list-property {
@@ -295,7 +300,6 @@ body {
 
 .fixed-bottom {
   background: #fff !important;
-  box-shadow: 1px 1px 20px lightgray;
 }
 .fixed-bottom a {
   color: grey;
@@ -426,6 +430,17 @@ body {
 }
 .progress .progress-bar {
   background-color: #ab2440 !important;
+}
+
+.listing-top-part {
+  background: #F5F5F5;
+}
+.listing-top-part .searchbar input {
+  height: 60px;
+}
+
+.filter-option {
+  color: #ab2440;
 }
 
 @media only screen and (max-width: 600px) {

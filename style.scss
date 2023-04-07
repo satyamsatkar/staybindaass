@@ -125,7 +125,7 @@ body {
 }
 
 .today-deal {
-  padding: 50px 10px;
+  overflow: hidden;
   .item {
     margin: 10px;
   }
@@ -133,7 +133,7 @@ body {
     display: none !important;
   }
   .info-part {
-    padding: 20px;
+    padding: 20px 20px 0px 20px;
     line-height: 1;
   }
   .dest-text {
@@ -142,6 +142,10 @@ body {
   .extra-text {
     font-size: 12px;
   }
+}
+.info-part {
+  padding: 20px 20px 0px 20px;
+  line-height: 1;
 }
 
 .list-property {
@@ -300,7 +304,7 @@ body {
 
 .fixed-bottom {
   background: #fff !important;
-  box-shadow: 1px 1px 20px lightgray;
+  
 
   a {
     color: grey;
@@ -459,6 +463,19 @@ body {
   }
 }
 
+// Listing.html
+
+.listing-top-part{
+  background: #F5F5F5;
+  .searchbar{
+    input{
+      height: 60px;
+    }
+  }
+}
+.filter-option{
+  color: #ab2440;
+}
 @media only screen and (max-width: 600px) {
   .navbar-nav {
     padding: 0px;
