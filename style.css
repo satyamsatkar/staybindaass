@@ -386,6 +386,10 @@ body {
   background: #f5f8ff;
   border-radius: 5px;
 }
+.info-part .star P {
+  font-size: 12px;
+  margin: 0px;
+}
 .info-part .overview {
   line-height: 2;
 }
@@ -396,6 +400,9 @@ body {
 .info-part .meal-plan {
   border: 1px dashed red;
   background: #F6F6F6;
+}
+.info-part .tab-content .tab-pane {
+  line-height: 2;
 }
 .info-part .tab-content .faq-btn {
   border-radius: 50%;

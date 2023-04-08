@@ -403,7 +403,10 @@ body {
     background: #f5f8ff;
     border-radius: 5px;
   }
-
+.star P{
+  font-size: 12px;
+  margin: 0px;
+}
   .overview {
     line-height: 2;
   }
@@ -416,6 +419,9 @@ body {
     background: #F6F6F6;
   }
   .tab-content{
+    .tab-pane{
+      line-height: 2;
+    }
     .faq-btn{
 
       border-radius: 50%;
