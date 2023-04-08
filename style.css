@@ -97,7 +97,10 @@ body {
 .carousle-dest .item {
   text-align: center;
   float: left;
-  padding: 30px;
+  padding: 20px;
+}
+.carousle-dest .item a {
+  color: black;
 }
 .carousle-dest .owl-carousel .owl-item img {
   width: 80px !important;
@@ -112,6 +115,10 @@ body {
 }
 .carousle-dest .owl-nav {
   display: none;
+}
+.carousle-dest .owl-item {
+  display: flex;
+  justify-content: center;
 }
 
 .head-dest {
@@ -130,6 +137,9 @@ body {
 .today-deal .info-part {
   padding: 20px 20px 0px 20px;
   line-height: 1;
+}
+.today-deal .info-part h4 {
+  font-size: 18px;
 }
 .today-deal .dest-text {
   font-size: 14px;
@@ -403,12 +413,13 @@ body {
 }
 .info-part .meal-plan {
   border: 1px dashed red;
-  background: #F6F6F6;
+  background: #f6f6f6;
 }
 .info-part .tab-content .tab-pane {
   line-height: 2;
 }
 .info-part .tab-content .faq-btn {
+  width: 50px;
   border-radius: 50%;
 }
 .info-part .tab-content .ans-detail {
@@ -444,7 +455,7 @@ body {
 }
 
 .listing-top-part {
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 .listing-top-part .searchbar input {
   height: 60px;
@@ -532,7 +543,7 @@ a {
     overflow-x: scroll;
   }
   .carousle-dest {
-    margin-top: 70%;
+    margin-top: 80%;
   }
   .instant-call {
     padding: 17px;
