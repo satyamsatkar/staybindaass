@@ -498,6 +498,24 @@ body {
 a {
   text-decoration: none;
 }
+
+//My Booking 
+.mybooking{
+  p{
+    margin: 0px;
+  }
+  .head-text{
+    font-weight: 300;
+    color: gray;
+  }
+  .book-ticket{
+    padding: 10px;
+    border:1px solid  #ab2440;
+    border-radius: 10px;
+    background-color: #fff2f5 !important;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .navbar-nav {
     padding: 0px;
