@@ -476,6 +476,9 @@ a {
 .mybooking {
   position: relative;
 }
+.mybooking .price {
+  border-radius: 5px 0px 0px 5px !important;
+}
 .mybooking p {
   margin: 0px;
   font-size: 14px;
