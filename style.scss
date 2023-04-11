@@ -501,6 +501,10 @@ a {
 
 //My Booking 
 .mybooking{
+  position: relative;
+  .show{
+    display: block;
+  }
   p{
     margin: 0px;
   }
@@ -513,6 +517,16 @@ a {
     border:1px solid  #ab2440;
     border-radius: 10px;
     background-color: #fff2f5 !important;
+  }
+  .toggle-button{
+    position: absolute;
+    text-align: center;
+    bottom: -7%;
+    #More{
+    padding: 10px;
+      border-radius:50%;
+    }
+  
   }
 }
 
