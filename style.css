@@ -508,13 +508,16 @@ a {
   background-color: #fff;
   height: 100vh;
   position: relative;
+  animation-name: fadeInOut, moveLeft300px, bounce;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
 }
 .firstpage img {
   width: 100%;
   position: absolute;
   left: 0px;
   top: 50%;
-  transform: translatey(-50%);
+  transform: translateY(-50%);
   padding: 0px 60px;
 }
 .firstpage button {
@@ -523,6 +526,20 @@ a {
   bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.login {
+  color: #697488;
+}
+.login .submit-btn {
+  background-color: #ab2440;
+  color: #fff;
+}
+.login .head {
+  color: #000;
+}
+.login .tab-pane {
+  padding: 20px;
 }
 
 @media only screen and (max-width: 600px) {
