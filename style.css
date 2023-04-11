@@ -469,11 +469,12 @@ a {
   text-decoration: none;
 }
 
+.show {
+  display: block !important;
+}
+
 .mybooking {
   position: relative;
-}
-.mybooking .show {
-  display: block;
 }
 .mybooking p {
   margin: 0px;
@@ -495,7 +496,8 @@ a {
 }
 .mybooking .toggle-button #More {
   padding: 10px;
-  border-radius: 50%;
+  font-size: 30px;
+  border-radius: 10%;
 }
 
 @media only screen and (max-width: 600px) {

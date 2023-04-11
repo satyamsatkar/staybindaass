@@ -498,13 +498,14 @@ body {
 a {
   text-decoration: none;
 }
-
+.show{
+  display: block !important;
+ 
+}
 //My Booking 
 .mybooking{
   position: relative;
-  .show{
-    display: block;
-  }
+
   p{
     margin: 0px;
   }
@@ -524,7 +525,8 @@ a {
     bottom: -7%;
     #More{
     padding: 10px;
-      border-radius:50%;
+    font-size: 30px;
+      border-radius:10%;
     }
   
   }
