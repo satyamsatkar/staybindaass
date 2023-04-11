@@ -504,6 +504,27 @@ a {
   border-radius: 10%;
 }
 
+.firstpage {
+  background-color: #fff;
+  height: 100vh;
+  position: relative;
+}
+.firstpage img {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translatey(-50%);
+  padding: 0px 60px;
+}
+.firstpage button {
+  position: absolute;
+  width: 90%;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 @media only screen and (max-width: 600px) {
   .navbar-nav {
     padding: 0px;
