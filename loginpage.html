@@ -31,15 +31,15 @@
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email</label>
                 <input type="email" class="form-control" id="mail" />
-                <p id="error_mail"></p>
+                <span id="error_mail"></span>
               </div>
               <div class="mb-3">
                 <label for="email1" class="form-label">password</label>
                 <input type="password" class="form-control" id="pass" />
-                <p id="error_pass"></p>
+                <span id="error_pass"></span>
               </div>
                 <p id="error_form"></p>
-                <input type="button" class="btn w-100 submit-btn" name="submit" id="submit" />
+                <button type="button" class="btn w-100 submit-btn" name="submit" id="submit" >submit</button>
           
             </div>
 
@@ -59,9 +59,11 @@
         var pass = $('#pass').val();
 
         if(mail == ''){
-          $('#error_mail').html('<p style="font-size: 11px; color: red; position: absolute; margin-top: 0; margin-left: 0;">Please enter a valid email id.</p>');
-          setTimeout(function(){ $('#error_mail').html('');}, 5000);
-          return false;
+         document.getElementById("error_mail").innerHTML='<p style="font-size: 11px; color: red; position: absolute; margin-top: 0; margin-left: 0;">Please enter a valid email id.</p>'
+          setTimeout(()=>{
+            document.getElementById("error_mail").innerHTML="";
+          },5000);
+     
         }
 
         if(pass == ''){
