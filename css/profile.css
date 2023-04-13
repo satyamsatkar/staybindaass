@@ -86,9 +86,7 @@ border-radius: 10px !important;
   color: #fff;
   box-shadow: 1px 1px 5px rgb(165, 154, 154);
   height: 210px;
-  position: relative;
-  border-radius: 10px 10px 0px 0px;
-  margin:0px 2px;
+
   /* padding: 20px; */
 }
 .floting-info{

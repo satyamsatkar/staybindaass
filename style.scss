@@ -520,6 +520,9 @@ a {
     border-radius: 10px;
     background-color: #fff2f5 !important;
   }
+  .downpart{
+    transition: 0.3s;
+  }
   .toggle-button {
     position: absolute;
     text-align: center;
@@ -570,7 +573,57 @@ a {
   padding: 20px;
  }
 }
-@media only screen and (max-width: 600px) {
+.SideMenu2{
+  transform: translateX(0%) !important;
+}
+#togglebtn{
+  font-size: 38px;
+
+  }
+.SideMenu{
+  width: 70%;
+  height: 100vh;
+  background-color: #FFF2F5;
+  position: fixed;
+  z-index: 3000;
+  transform: translateX(-100%);
+  transition: 0.5s;
+
+.side-option{
+  p{
+    font-size: 17px;
+    color: #ab2440;
+    font-weight: 400;
+  }
+}
+
+  h2{
+    color: #fff;
+    font-size: 20px;
+  }
+  .img-cont{
+    width: 60px;
+    border: 5px solid white;
+    border-radius: 50%;
+  
+  }
+  .iconpart{
+    background-color: #ab2440;
+
+
+  }
+ 
+  .img-cont{
+  // width: 100px;
+  // height: 50px;
+  // border:1px solid black;
+  // border-radius: 50%;
+   img{
+    width:100%;
+   }
+  }
+}
+@media only screen and (max-width: 992px) {
   .navbar-nav {
     padding: 0px;
   }
@@ -619,12 +672,14 @@ a {
       font-weight: 400;
       border-radius: 0px !important;
       border-bottom: 2px solid #ab2440 !important;
+      height: 50px !important;
     }
     select {
       border: none !important;
       font-weight: 400;
       border-bottom: 2px solid #ab2440 !important;
       border-radius: 0px !important;
+      height: 50px !important;
     }
   }
   .padd-15 {
